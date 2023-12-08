@@ -1,0 +1,9 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  min-height: 75vh;
+  padding: 20px 20px 55px 20px;
+  gap: 10px;
+}

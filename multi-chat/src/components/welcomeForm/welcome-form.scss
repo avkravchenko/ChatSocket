@@ -1,0 +1,22 @@
+.welcome-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: fit-content;
+  max-height: fit-content;
+
+  label {
+    font-weight: 700;
+  }
+
+  input {
+    border-radius: 20px;
+    border: none;
+    filter: drop-shadow(2px 2px 5px rgb(231, 231, 231));
+    padding: 5px 10px;
+    outline: none;
+  }
+}
